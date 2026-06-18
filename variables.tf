@@ -25,7 +25,7 @@ variable "public_subnets" {
 
 variable "azs" {
   type    = list(string)
-  default = ["us-west-2a", "us-west-2b", "us-west-2c"]
+  default = ["us-east-1a", "us-east-1b", "us-east-1c"]
 }
 
 variable "efs_name" {
@@ -37,5 +37,5 @@ variable "efs_name" {
 variable "aws_region" {
   type        = string
   description = "For AWS deployment - region name"
-  default     = "us-west-2"
+  default     = "us-east-1"
 }
